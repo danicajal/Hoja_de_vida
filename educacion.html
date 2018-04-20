@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Educación</title>
+  </head>
+  <body>
+    <header>
+      <svg width="800" height="100" >
+        <image width="300" height="400" xlink:href="media/logo_doc.svg"></image>
+      </svg>
+      <svg width="1000" height="10">
+        <line x1="0" y1="0" x2="1000" y2="0" stroke="black" stroke-width="5"/>
+      </svg>
+      <h1>HOJA DE VIDA</h1>
+      <h2>Cajal Daniel Orlando</h2><h3>Fecha de Nacimiento: 01/01/1973 Lugar: Córdoba-Argentina</h3>
+    </header>
+    <nav>
+      <p>
+        <a href="index.html">Inicio</a> |
+        <a href="educacion.html">Educación</a> |
+        <a href="experiencia.html">Experiencia</a> |
+      </p>
+    </nav>
+    <svg width="1000" height="10">
+      <line x1="0" y1="0" x2="1000" y2="0" stroke="black" stroke-width="5"/>
+    </svg>
+    <section>
+      <h2>Educación</h2>
+      <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <td><strong>Año</strong></td>
+            <td><strong>Institución</strong></td>
+            <td><strong>Lugar</strong</td>
+            <td><strong>¿Culminó?</strong></td>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1990</td>
+            <td>Instituto Comercial Dalmacio Velez Sarsfield</td>
+            <td>Córdoba</td>
+            <td>Si. Perito Mercantil</td>
+          </tr>
+          <tr>
+            <td>1995</td>
+            <td>Instituto Superior Pascal</td>
+            <td>Córdoba</td>
+            <td>Si. Analista de Sistemas de Computación</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3>Agregar Estudios</h3>
+        <form >
+          <fieldset>
+            <label for="año">Año:</label>
+            <input id="año" type="number" name="año" value="2018" maxlength="4" min="1900" max="2100" required><br/
+            <label for="Institucion">Institución:</label>
+            <input id="Institucion" type="text" placeholder="Ej:Ingrese la institución donde cursó los estudios" name="Institucion" required><br/
+            <label for="Lugar">Lugar:<br/></label>
+            <textarea name="lugar" rows="3" cols="15"></textarea><br/
+            <label for="culmino">¿Culminó?</label>
+            <input id="culmino" type="radio" name="culmino"><b>Si</b>
+            <input id="culmino" type="radio" name="culmino"><b>No</b><br/>
+            <input type="submit" value="Enviar">
+          </fieldset>
+        </form>
+        <svg width="1000" height="10">
+          <line x1="0" y1="0" x2="1000" y2="0" stroke="black" stroke-width="5"/>
+        </svg>
+    </section>
+    <footer>
+      Derechos Reservados
+      <ul>
+        <li>danielcajal14@yahoo.com.ar</li>
+        <li>+543513274904</li>
+        <li>Francisco Majeste 1697 Córdoba Argentina</li>
+      </ul>
+    </footer>
+  </body>
+</html>
